@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Files\Output\WordStat.txt" />
+    <None Remove="Program.cs.001" />
+    <None Remove="Program.cs.002" />
+    <None Remove="Program.cs.003" />
+    <None Remove="Program.cs.004" />
+    <None Remove="Program.cs.005" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+1. Create a console app in C# that will produce the output.txt given article.txt and words.txt
+2. The application shouldn't have any nuget packages
+3. The code should be maintainable and readable
+4. Include the unit test project that you used during the course of development
+5. Throw it in github and send me the link in skype
+
+NOTE: Make sure the code is reusable to process given a different paragraph and a different set of words. This challenge checks how object oriented is your approach. 
+
+  
+ 
