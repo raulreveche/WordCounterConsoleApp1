@@ -68,9 +68,10 @@ namespace WordCounterConsoleApp1
 				string[] words = System.IO.File.ReadAllLines(@wordsFile);
 				using (StreamWriter writer = new StreamWriter(@outputFile))
 				{
+					var sentences = article.SplitIntoSentences();
 					foreach (var (word, index) in words.Select((value, i) => (value, i)))
 					{
-						string wordStat = " " + AlphaBullet(index) + ". " + article.SplitIntoSentences().CountWord(word);
+						string wordStat = " " + AlphaBullet(index) + ". " + sentences.CountWord(word);
 						Console.WriteLine(wordStat);
 						writer.WriteLine(wordStat);
 					}
